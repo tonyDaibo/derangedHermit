@@ -6,9 +6,10 @@ function App() {
   console.log(week1);
   const [activePlayer, setActivePlayer] = useState(0);
   const [activeCard, setActiveCard] = useState("");
-
+  
   return (
     <div className="App">
+      {/* this div needs to be phone ratio'd */}
       <h1>Commander Warhammer 40k</h1>
       <div>Week ></div>
       {/* this div wraps the players, css grid will help you make the 4 equal sized squares */}
