@@ -1,0 +1,85 @@
+{
+"players":
+  [
+    {
+      "playerName": "Tony",
+      "commanderName": "Hullbreak Horror",
+      "wins": "0",
+      "points": "0",
+      "decklist": ["card1", "card2", "card3"],
+      "changes":{
+        "cardsOut": ["card1", "card2", "card3"],
+        "cardsIn": [
+          {
+            "cardName": "fatal push",
+            "cardPrice": "$0.69"
+          },
+          {
+            "cardName": "doom foretold",
+            "cardPrice": "$4.20"
+          }
+        ]
+      }
+    },
+    {
+      "playerName": "Jape",
+      "commanderName": "Akroma",
+      "wins": "0",
+      "points": "0",
+      "decklist": ["card1", "card2", "card3"],
+      "changes":{
+        "cardsOut": ["card1", "card2", "card3"],
+        "cardsIn": [
+          {
+            "cardName": "fatal push",
+            "cardPrice": "$0.69"
+          },
+          {
+            "cardName": "doom foretold",
+            "cardPrice": "$4.20"
+          }
+        ]
+      }
+    },
+    {
+      "playerName": "Dave",
+      "commanderName": "Heliod",
+      "wins": "1",
+      "points": "0",
+      "decklist": ["card1", "card2", "card3"],
+      "changes":{
+        "cardsOut": ["card1", "card2", "card3"],
+        "cardsIn": [
+          {
+            "cardName": "fatal push",
+            "cardPrice": "$0.69"
+          },
+          {
+            "cardName": "doom foretold",
+            "cardPrice": "$4.20"
+          }
+        ]
+      }
+    },
+    {
+      "playerName": "Dave",
+      "commanderName": "Phage the untouchable",
+      "wins": "1",
+      "points": "0",
+      "decklist": ["card1", "card2", "card3"],
+      "changes":{
+        "cardsOut": ["card1", "card2", "card3"],
+        "cardsIn": [
+          {
+            "cardName": "fatal push",
+            "cardPrice": "$0.69"
+          },
+          {
+            "cardName": "doom foretold",
+            "cardPrice": "$4.20"
+          }
+        ]
+      }
+    }
+  ]
+}
