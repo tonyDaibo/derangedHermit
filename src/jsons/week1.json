@@ -3,47 +3,8 @@
   [
     {
       "playerName": "Tony",
-      "commanderName": "Hullbreak Horror",
-      "wins": "0",
-      "points": "0",
-      "decklist": ["card1", "card2", "card3"],
-      "changes":{
-        "cardsOut": ["card1", "card2", "card3"],
-        "cardsIn": [
-          {
-            "cardName": "fatal push",
-            "cardPrice": "$0.69"
-          },
-          {
-            "cardName": "doom foretold",
-            "cardPrice": "$4.20"
-          }
-        ]
-      }
-    },
-    {
-      "playerName": "Jape",
-      "commanderName": "Akroma",
-      "wins": "0",
-      "points": "0",
-      "decklist": ["card1", "card2", "card3"],
-      "changes":{
-        "cardsOut": ["card1", "card2", "card3"],
-        "cardsIn": [
-          {
-            "cardName": "fatal push",
-            "cardPrice": "$0.69"
-          },
-          {
-            "cardName": "doom foretold",
-            "cardPrice": "$4.20"
-          }
-        ]
-      }
-    },
-    {
-      "playerName": "Dave",
-      "commanderName": "Heliod",
+      "commanderName": "Nethroi, Apex of Death",
+      "artCrop": "https://cards.scryfall.io/art_crop/front/1/6/1662119f-f2e8-4e2c-bdff-2942852e1f1f.jpg?1630630843",
       "wins": "1",
       "points": "0",
       "decklist": ["card1", "card2", "card3"],
@@ -62,8 +23,51 @@
       }
     },
     {
-      "playerName": "Dave",
-      "commanderName": "Phage the untouchable",
+      "playerName": "Jordan",
+      "commanderName": "Brokkos, Apex of Forever",
+      "artCrop": "https://cards.scryfall.io/art_crop/front/4/c/4cf6ca85-0ef5-4104-b0e6-1137c4975579.jpg?1604783035",
+      "wins": "0",
+      "points": "0",
+      "decklist": ["card1", "card2", "card3"],
+      "changes":{
+        "cardsOut": ["card1", "card2", "card3"],
+        "cardsIn": [
+          {
+            "cardName": "fatal push",
+            "cardPrice": "$0.69"
+          },
+          {
+            "cardName": "doom foretold",
+            "cardPrice": "$4.20"
+          }
+        ]
+      }
+    },
+    {
+      "playerName": "Nini",
+      "commanderName": "Void Beckoner",
+      "artCrop": "https://cards.scryfall.io/art_crop/front/1/c/1ca7065e-88c1-44bb-ac68-e6e1df9e0726.jpg?1590879855",
+      "wins": "1",
+      "points": "0",
+      "decklist": ["card1", "card2", "card3"],
+      "changes":{
+        "cardsOut": ["card1", "card2", "card3"],
+        "cardsIn": [
+          {
+            "cardName": "fatal push",
+            "cardPrice": "$0.69"
+          },
+          {
+            "cardName": "doom foretold",
+            "cardPrice": "$4.20"
+          }
+        ]
+      }
+    },
+    {
+      "playerName": "Ulacmog",
+      "commanderName": "Illuna, Apex of Wishes",
+      "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c2d30421-8562-4559-ad89-a5609a3f77ff.jpg?1630630928",
       "wins": "1",
       "points": "0",
       "decklist": ["card1", "card2", "card3"],

@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       {/* this div needs to be phone ratio'd */}
       <h1>Commander Warhammer 40k</h1>
-      <div>Week ></div>
+      <div>Week +</div>
       {/* this div wraps the players, css grid will help you make the 4 equal sized squares */}
       <div>
         {
@@ -28,7 +28,7 @@ function App() {
           <div>List</div>
           <div>Changes</div>
         </div>
-        <div>
+        {/* <div>
         {
           week1.players[0].decklist.map((card, index) =>
             <Card
@@ -39,7 +39,7 @@ function App() {
           )
         }
         <img src={activeCard} alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   )
