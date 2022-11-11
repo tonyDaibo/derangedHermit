@@ -1,6 +1,8 @@
 import week1 from './jsons/week1.json';
 import Player from './components/Player';
 import { useState } from 'react';
+import styled from "styled-components";
+import './App.css'
 
 function App() {
   console.log(week1);
@@ -8,12 +10,12 @@ function App() {
   const [activeCard, setActiveCard] = useState("");
   
   return (
-    <div className="App">
+    <div className="app">
       {/* this div needs to be phone ratio'd */}
-      <h1>Commander Warhammer 40k</h1>
+      <h1>Ikoria</h1>
       <div>Week +</div>
       {/* this div wraps the players, css grid will help you make the 4 equal sized squares */}
-      <div>
+      <div className='grid-container'>
         {
           week1.players.map((player, index) =>
             <Player
@@ -44,5 +46,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App

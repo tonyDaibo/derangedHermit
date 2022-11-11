@@ -3,8 +3,8 @@
   [
     {
       "playerName": "Tony",
-      "commanderName": "Nethroi, Apex of Death",
-      "artCrop": "https://cards.scryfall.io/art_crop/front/1/6/1662119f-f2e8-4e2c-bdff-2942852e1f1f.jpg?1630630843",
+      "commanderName": "Titanoth Rex",
+      "artCrop": "https://cards.scryfall.io/art_crop/front/b/4/b4817b86-d55a-4334-82ee-603f8c4b3e93.jpg?1590879818",
       "wins": "1",
       "points": "0",
       "decklist": ["card1", "card2", "card3"],
@@ -66,8 +66,8 @@
     },
     {
       "playerName": "Ulacmog",
-      "commanderName": "Illuna, Apex of Wishes",
-      "artCrop": "https://cards.scryfall.io/art_crop/front/c/2/c2d30421-8562-4559-ad89-a5609a3f77ff.jpg?1630630928",
+      "commanderName": "Sprite Dragon",
+      "artCrop": "https://cards.scryfall.io/art_crop/front/9/4/94d3b231-d15d-4186-826c-452009cd5c5e.jpg?1604783140",
       "wins": "1",
       "points": "0",
       "decklist": ["card1", "card2", "card3"],
