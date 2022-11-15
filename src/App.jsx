@@ -13,7 +13,7 @@ function App() {
     <div className="app">
       <div className="header-container">
       <h1 className="league-title">Ikoria</h1>
-      <div>Week +</div>
+      <div className="week-selector">Week +</div>
       </div>
       {/* this div wraps the players, css grid will help you make the 4 equal sized squares */}
       <div className='grid-container'>
