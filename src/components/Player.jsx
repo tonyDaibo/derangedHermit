@@ -11,7 +11,7 @@ function Player({playerData}) {
           <p>{playerData.playerName}</p>
           <p>{playerData.commanderName}</p>
         </div>
-      <img className="card-art-background" src={playerData.artCrop}/>
+        <img className="card-art-background" src={playerData.artCrop}/>
       </div>
     </div>
   )
