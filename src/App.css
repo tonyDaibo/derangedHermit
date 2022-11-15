@@ -1,7 +1,6 @@
 .header-container{
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -14,6 +13,8 @@
 .week-selector{
   display: flex;
   justify-content: center;
+  position:relative;
+  bottom:35px;
 }
 
 
@@ -35,6 +36,7 @@
 .app{
 HEIGHT:100%;
 WIDTH:100%;
+font-family: 'Montserrat', sans-serif;
 }
 
 .player-wrapper{
