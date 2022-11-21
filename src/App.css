@@ -40,7 +40,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .player-wrapper{
-  width:100%;
+  width:50%;
   position:relative;
   height:0;
   padding-top:50%;
@@ -51,6 +51,7 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 3vw;
   width:100%;
+  display:none;
 }
 
 
@@ -66,4 +67,14 @@ font-family: 'Montserrat', sans-serif;
   left: 0;
   width:100%;
   height: 100%;
+}
+
+
+/* MEDIA  */
+
+.player-inner:hover + .player-stats-wrapper {
+  position:absolute;
+  text-align: center;
+  font-size: 3vw;
+  width:100%;
 }
