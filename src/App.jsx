@@ -8,6 +8,12 @@ function App() {
   console.log(week1);
   const [activePlayer, setActivePlayer] = useState(0);
   const [activeCard, setActiveCard] = useState("");
+  const [hover, setHover] = useState(false);
+
+  const handleClick = (e) => {
+    e.stopPropagation();
+    console.log(hover);
+  }
   
   return (
     <div className="app">
@@ -16,7 +22,11 @@ function App() {
       <div className="week-selector">Week +</div>
       </div>
       {/* this div wraps the players, css grid will help you make the 4 equal sized squares */}
-      <div className='grid-container'>
+      <div className='grid-container' 
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      onClick={handleClick}
+      >
         {
           week1.players.map((player, index) =>
             <Player
@@ -47,6 +57,5 @@ function App() {
     </div>
   )
 }
-
 
 export default App
